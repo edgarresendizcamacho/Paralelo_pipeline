@@ -14,7 +14,7 @@ describe("Bienvenido al curso de cypress sección 1", () =>{
 
             cy.visit("https://integras3qa.lennken.com/Default.aspx")
             cy.get("#ctl00_cphContenido_oLogin_UserName").should("be.visible").type("0000333")
-            cy.get("#ctl00_cphContenido_oLogin_Password").should("be.visible").type("$0000333$")
+            cy.get("#ctl00_cphContenido_oLogin_Password").should("be.visible").type("$000333$")
             
             cy.get("#ctl00_cphContenido_oLogin_LoginButton").should("be.visible").click()  
             cy.get("#ctl00_cphPrincipal_repeaterModulo_ctl02_lnkModulo").should("be.visible").click()  
