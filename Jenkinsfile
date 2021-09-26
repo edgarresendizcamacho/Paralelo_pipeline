@@ -12,10 +12,10 @@ pipeline {
                         label "Agente2_1"
                     }
                     steps {
-                        git url: 'https://github.com/RodrigoUdemy/Paralelo_pipline.git'
+                        git url: 'https://github.com/edgarresendizcamacho/Paralelo_pipeline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 7f3ad08e-6c6e-442f-bcbd-cb3269ac5a9c  --parallel'
+                        bat 'npx cypress run cypress run --record --key 84781462-61f8-4bce-9d41-d6b09d4a66c2  --parallel'
                     
                     }
                 }
@@ -25,10 +25,10 @@ pipeline {
                         label "Agente2_2"
                     }
                     steps {
-                        git url: 'https://github.com/RodrigoUdemy/Paralelo_pipline.git'
+                        git url: 'https://github.com/edgarresendizcamacho/Paralelo_pipeline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 7f3ad08e-6c6e-442f-bcbd-cb3269ac5a9c  --parallel'
+                        bat 'npx cypress run cypress run --record --key 84781462-61f8-4bce-9d41-d6b09d4a66c2  --parallel'
                     
                     }
                 }
@@ -38,10 +38,10 @@ pipeline {
                         label "Agente2_3"
                     }
                     steps {
-                        git url: 'https://github.com/RodrigoUdemy/Paralelo_pipline.git'
+                        git url: 'https://github.com/edgarresendizcamacho/Paralelo_pipeline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 7f3ad08e-6c6e-442f-bcbd-cb3269ac5a9c  --parallel'
+                        bat 'npx cypress run cypress run --record --key 84781462-61f8-4bce-9d41-d6b09d4a66c2  --parallel'
                     
                     }
                 }
@@ -51,10 +51,10 @@ pipeline {
                         label "Agente2_4"
                     }
                     steps {
-                        git url: 'https://github.com/RodrigoUdemy/Paralelo_pipline.git'
+                        git url: 'https://github.com/edgarresendizcamacho/Paralelo_pipeline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 7f3ad08e-6c6e-442f-bcbd-cb3269ac5a9c  --parallel'
+                        bat 'npx cypress run cypress run --record --key 84781462-61f8-4bce-9d41-d6b09d4a66c2  --parallel'
                     
                     }
                 }
